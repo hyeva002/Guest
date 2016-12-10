@@ -24,6 +24,7 @@ urlpatterns = [
     url(r'^event_manage/$', views.event_manage),
     url(r'^accounts/login/$', views.index),
     url(r'^sreach_name/$', views.sreach_name),
+    url(r'^sreach_guest/$', views.sreach_guest),
     url(r'^guest_manage/$', views.guest_manage),
     url(r'^sreach_phone/$', views.sreach_phone),
     url(r'^logout/$', views.logout),
